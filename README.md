@@ -15,3 +15,5 @@ A proxy between the borwser and the network and or the cache. Once 'installed', 
 -   https://bitsofco.de/web-workers-vs-service-workers-vs-worklets/
 -   https://medium.com/@Trott/using-worker-threads-in-node-js-80494136dbb6
 -   [Node Workers Documentation](https://nodejs.org/api/worker_threads.html#worker_threads_worker_threads)
+-   https://developers.google.com/web/fundamentals/primers/service-workers
+-   https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API
