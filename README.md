@@ -15,13 +15,17 @@ The browser runs the service worker script in the background, distinct from the 
 -   Push notifications
 -   Background synchonisation on a regular time interval. E.g. an app can update the content available offline by checking for content available on the network side every 15 mins.
 
-There is no global state in the handlers as the service worker is terminated when not in use. If you need data to persist across restarts, they do have access to the IndexedDB API.
+There is no global state in the handlers as the service worker is terminated when not in use. This saves memory. If you need data to persist across restarts, they do have access to the IndexedDB API.
 
 Service workers heavily rely on JavaScript promises.
 
 Warning, deployed incorrectly, a service worker can break the user's browser and they wouldn't be able to tell what's causing the issue.
 
+This is why you can only deploy a service worker if you have HTTPS on your server. Only able to use them on HTTP when localhost for developement.
+
 Before the service worker API, offline experience was enabled via the AppCache API.
+
+Once registered, you can check that a service worker is enabled on your site via `chrome://inspect/#service-workers`: ![Inspect Chrome Service Workers](./images/ServiceWorker_Chrome_Inspect.png)
 
 #### General Resources:
 
