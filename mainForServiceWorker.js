@@ -12,7 +12,7 @@ const registerServiceWorker = () => {
 					);
 				},
 				error => {
-					console.log("Service worker reistration failed: ", error);
+					console.log("Service worker registration failed: ", error);
 				}
 			);
 		});
