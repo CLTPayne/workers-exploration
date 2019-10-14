@@ -36,4 +36,5 @@ Once registered, you can check that a service worker is enabled on your site via
 -   [Service Worker Api](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)
 -   [AppCache](https://www.html5rocks.com/en/tutorials/appcache/beginner/)
 -   [Push Notifications](https://developers.google.com/web/updates/2015/03/push-notifications-on-the-open-web)
+-   [Debugging Push Notifications](https://umaar.com/dev-tips/208-push-notifications/)
 -   [Background Sync](https://developers.google.com/web/updates/2015/12/background-sync)
