@@ -1,4 +1,5 @@
-// Register the service worker in the page's JavaScript
+// Check that the browser user agent is ServiceWorker compatible
+// Register the service worker in the page's JavaScript after load
 // The browser will then install it in the backgroud
 
 const registerServiceWorker = () => {

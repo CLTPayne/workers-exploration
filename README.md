@@ -25,7 +25,12 @@ This is why you can only deploy a service worker if you have HTTPS on your serve
 
 Before the service worker API, offline experience was enabled via the AppCache API.
 
+You can check that a browser is service worker compatible (i.e. has a `ServiceWorkerContainer`) via the `Navigator` API. This details the state and identity of the user agent. You can check this by calling `window.navigator` and inspecting the object.
+
 Once registered, you can check that a service worker is enabled on your site via `chrome://inspect/#service-workers`: ![Inspect Chrome Service Workers](./images/ServiceWorker_Chrome_Inspect.png)
+
+Example of logging in `serviceWorker.js` to illustrate the install, activation and successful scope of the service worker as well as the messages sent between the worker and the javascript in developement (on `localhost`):
+![Service Worker Console Logs](./images/ServiceWorkerConsoleLogs.png)
 
 #### General Resources:
 
