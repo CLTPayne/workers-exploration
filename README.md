@@ -32,6 +32,11 @@ Once registered, you can check that a service worker is enabled on your site via
 Example of logging in `serviceWorker.js` to illustrate the install, activation and successful scope of the service worker as well as the messages sent between the worker and the javascript in developement (on `localhost`):
 ![Service Worker Console Logs](./images/ServiceWorkerConsoleLogs.png)
 
+#### Questions:
+
+1. How do you store the static assets in the offline cache
+2. How do you invalidate an asset
+
 #### General Resources:
 
 -   https://bitsofco.de/web-workers-vs-service-workers-vs-worklets/
